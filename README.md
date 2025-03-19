@@ -12,6 +12,8 @@ cd pos_system-using-laravel-filament-
 <h2>3. Configure Environment</h2>
     <p>Create a <code>.env</code> file by copying <code>.env.example</code>:</p>
     <pre><code>cp .env.example .env</code></pre>
+    <P>Download Postgres if you don't have</P>
+    <pre><code>https://www.enterprisedb.com/downloads/postgres-postgresql-downloads</code></pre>
 <p>Then, update the database configuration in <code>.env</code>:</p>
     <pre><code>DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
@@ -20,6 +22,7 @@ DB_DATABASE=pos_system
 DB_USERNAME=your_pg_user
 DB_PASSWORD=your_pg_password
 </code></pre>
+
 <h2>4. Run Migrations </h2>
     <pre><code>php artisan migrate</code></pre>
    
