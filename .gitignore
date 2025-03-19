@@ -1,0 +1,39 @@
+# Laravel Specific
+/vendor
+/node_modules
+/public/storage
+/public/build
+/public/hot
+/bootstrap/cache
+/storage/*.key
+/storage/*.log
+/storage/framework/*
+/storage/pail
+
+# Environment & Config Files
+.env
+.env.*
+/auth.json
+
+# IDE & Editor Specific
+/.phpunit.cache
+/.phpactor.json
+/.phpunit.result.cache
+/.idea
+/.vscode
+/.nova
+/.fleet
+/.zed
+
+# Homestead & Docker
+Homestead.json
+Homestead.yaml
+/.docker
+/.vagrant
+
+# Debug & Logs
+npm-debug.log
+yarn-error.log
+
+# Composer Related
+composer.lock
